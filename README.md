@@ -1,6 +1,6 @@
 <div align="center">
 
-# LlamaGen-FlashAR
+# FlashAR
 
 ### Efficient Diagonal Decoding for Autoregressive Image Generation
 
@@ -10,7 +10,7 @@
 
 </div>
 
-This repository contains the standalone **LlamaGen-FlashAR image-generation** code extracted
+This repository contains the standalone **FlashAR image-generation** code extracted
 from the previous image workspace. It keeps the ImageNet-style
 training, sampling, tokenization, and evaluation pipeline while ignoring local
 checkpoints, datasets, generated samples, logs, and upload workdirs.
