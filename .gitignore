@@ -1,0 +1,87 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.cache/
+.coverage*
+htmlcov/
+
+# Virtual environments
+.env
+.env.*
+.venv/
+venv/
+env/
+ENV/
+
+# Build/package artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# IDE/editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs and experiment trackers
+logs/
+wandb/
+*.log
+runs/
+
+# Model checkpoints and generated weights
+pretrained_models/
+checkpoints/
+cloud_ckpt*/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.onnx
+*.pb
+
+# Datasets and generated code caches
+imagenet/
+imagenet_raw/
+imagenet_code*/
+*_code_data.tar
+ILSVRC*.tar
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.npz
+*.npy
+*.pkl
+*.pickle
+
+# Generated samples/evaluation outputs
+samples*/
+eval_samples/
+results/
+outputs/
+final_teaser/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+
+# ModelScope / upload workdirs
+modelscope_upload/
+.ms_imagenet_code_repo/
+.msc
+.mv
+
+# Local scratch
+._____temp/
+tmp/
+*.orig

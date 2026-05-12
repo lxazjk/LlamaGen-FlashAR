@@ -1,0 +1,11 @@
+torch>=2.1.0
+ftfy
+transformers
+accelerate
+sentencepiece
+pandas
+bs4
+wandb
+torchvision
+webdataset
+wids
